@@ -1,76 +1,27 @@
-# Full stack ecommerce online store application
-#### Online demo [click here](https://zack-ecommerce-reactjs.herokuapp.com/)
-#### back-end code [click here](https://github.com/levelopers/Ecommerce-Nodejs)
+# Online Book Store
+UI for Online Book Store developed by using ReactJS
 
-## General Info 
+Inspired by https://www.uplabs.com/posts/book-store-website-interface
 
-front-end: Reactjs, Redux, Axios, Sass, react-bootstrap
+|      Original design      |    Implementation    |
+| ------------------------- |:--------------------:|
+| ![alt text](original_design.png)|![Output sample](booksGIF.gif) |
 
-back-end: Node.js, Express, Restful API, paypal-sdk, mongodb, mongoose, jwt(jsonwebtoken), heroku, firebase, swaggerHub
+### Instructions
+- Clone repository: `git clone https://github.com/NadiKuts/react-book-store-concept.git`
 
-## snapshots
+- Navigate to the created folder: `cd react-book-store-concept`
 
+- Install dependencies: `npm install`
 
-<details>
- <summary>dashboard</summary>
- <p>
-   
-![dashboard_large](https://user-images.githubusercontent.com/38830527/57897997-477ce000-7825-11e9-84f2-dcc66c7a378b.png)
-- - - - -
-side menu             |  dashboard
-:-------------------------:|:-------------------------:
-![side_menu_sm](https://user-images.githubusercontent.com/38830527/57898258-3e404300-7826-11e9-97dc-1475eaf95c70.png)  |  ![dashboard_sm](https://user-images.githubusercontent.com/38830527/57898213-0f29d180-7826-11e9-97cd-a19323b5d5cd.png)
-</p>
-</details>
+- Start the project `npm start`
 
-<details>
- <summary>product-overview</summary>
- <p>
-   
-   ![product_overview_large](https://user-images.githubusercontent.com/38830527/57897999-477ce000-7825-11e9-989e-4d95938b6578.PNG)
-</p>
-</details>
+### Sources
+React Slick Carousel Component:
+https://github.com/akiran/react-slick
 
-<details>
- <summary>checkout</summary>
- <p>
-   
-![checkout_large](https://user-images.githubusercontent.com/38830527/57897994-46e44980-7825-11e9-86ec-5c086675c98d.PNG)
-   
-</p>
-</details>
+Books information:
+https://www.bookdepository.com/
 
-
-<details>
- <summary>checkout confirm</summary>
- <p>
-   
-![checkout_confirm_large](https://user-images.githubusercontent.com/38830527/57897993-46e44980-7825-11e9-9ecf-6de74dd69eb2.PNG)
-   
-</p>
-</details>
-
-
-<details>
- <summary>checkout success</summary>
- <p>
-   
-![checkout_success_large](https://user-images.githubusercontent.com/38830527/57897996-46e44980-7825-11e9-8247-c0d97cfc39e9.PNG)
-   
-</p>
-</details>
-
-
-<details>
- <summary>login</summary>
- <p>
-   
-![login_large](https://user-images.githubusercontent.com/38830527/57897998-477ce000-7825-11e9-84d8-16d59b65edb4.PNG)
-   
-</p>
-</details>
-
-
-
-
-
+### License
+MIT License
